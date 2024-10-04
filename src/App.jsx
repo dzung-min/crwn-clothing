@@ -1,45 +1,8 @@
-import logo from "./logo.svg";
+import categories from "./categories.json";
+import Directory from "./components/directory/directory.component";
 
 function App() {
-  return (
-    <div className="categories-container">
-      <div className="category-container">
-        {/* {img} */}
-        <div className="category-body-container">
-          <h2>Hats</h2>
-          <p>Shop Now</p>
-        </div>
-      </div>
-      <div className="category-container">
-        {/* {img} */}
-        <div className="category-body-container">
-          <h2>Hats</h2>
-          <p>Shop Now</p>
-        </div>
-      </div>
-      <div className="category-container">
-        {/* {img} */}
-        <div className="category-body-container">
-          <h2>Hats</h2>
-          <p>Shop Now</p>
-        </div>
-      </div>
-      <div className="category-container">
-        {/* {img} */}
-        <div className="category-body-container">
-          <h2>Hats</h2>
-          <p>Shop Now</p>
-        </div>
-      </div>
-      <div className="category-container">
-        {/* {img} */}
-        <div className="category-body-container">
-          <h2>Hats</h2>
-          <p>Shop Now</p>
-        </div>
-      </div>
-    </div>
-  );
+  return <Directory categories={categories} />;
 }
 
 export default App;
