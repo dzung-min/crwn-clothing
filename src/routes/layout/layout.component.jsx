@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 
 import NavBar from "../../components/navbar/navbar.component";
 
-const Container = () => {
+const Layout = () => {
   return (
     <>
       <NavBar />
@@ -11,4 +11,4 @@ const Container = () => {
   );
 };
 
-export default Container;
+export default Layout;
